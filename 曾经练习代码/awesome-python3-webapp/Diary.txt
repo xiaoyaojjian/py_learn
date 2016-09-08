@@ -1,0 +1,57 @@
+Day 1 搭建开发环境
+	Index Structure
+	2016.3.16
+awesome-python3-webapp/  <-- 根目录
+|
++- backup/               <-- 备份目录
+|
++- conf/                 <-- 配置文件
+|
++- dist/                 <-- 打包目录
+|
++- www/                  <-- Web目录，存放.py文件
+|  |
+|  +- static/            <-- 存放静态文件
+|  |
+|  +- templates/         <-- 存放模板文件
+|
++- ios/                  <-- 存放iOS App工程
+|
++- LICENSE               <-- 代码LICENSE
+Day 2 编写Web APP 骨架
+	2016.3.16
+	app.py
+	def index
+	def init
+Day 3 编写ORM
+	2016.3.16
+	orm.py
+	class Model
+	class ModelMetaclass
+	class Field
+	def select insert update delete
+Day 4 编写Model
+	2016.3.17
+	models.py
+Day 5 编写Web框架
+	2016.3.18
+	apis.py
+	coroweb.py
+Day 6 编写配置文件
+	2016.3.18
+	config_default.py
+	config_override.py
+	config.py
+Day 7 编写MVC
+	2016.3.18
+	test.html
+	app.py
+Day 8 构建前端
+Day 9 编写API
+Day 10用户注册和登录
+Day 11编写日志创建页
+Day 12编写 日志列表页
+Day 13提升开发效率
+Day 14完成Web App
+Day 15部署Web App
+Day 16编写移动App

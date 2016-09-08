@@ -1,0 +1,18 @@
+<!--jinja2 display signin.html-->
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Please Sign In</title>
+</head>
+<body>
+	{% if message %}
+	<p style="color: red">{{message}}</p>
+	{% endif %}
+	<form action="/signin" method="post">
+		<legend>Please sign in:</legend>
+		<p><input name="username" placeholder="Username" value="{{username}}"></input></p>
+		<p><input name="password" placeholder="Password" type="password"></input></p>
+		<p><button type="submit">Sign In</button></p>
+	</form>
+</body>
+</html>
